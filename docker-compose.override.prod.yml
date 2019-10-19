@@ -1,0 +1,4 @@
+version: '2'
+services:
+  explorer-mainnet:
+    image: mincoin/explorer-mainnet
