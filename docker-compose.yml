@@ -7,7 +7,7 @@ services:
     volumes:
       - /data/mincoin-mainnet:/usr/src/MNCexplorer/data/mincoin/
     ports:                                                    
-      - "3000:80"
+      - "3000:8080"
     links:
       - mainnet
 
